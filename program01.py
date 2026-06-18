@@ -1,4 +1,10 @@
-print("โปรแกรมคำนวณหาพื้นที่วงกลม")
-r=float(input("enter r:"))
-area=3.14*r*r
-print(f"area is:,{area:.2f}")
+print("Rectangle Area and Perimeter Calculator")
+
+width = float(input("Enter width: "))
+length = float(input("Enter length: "))
+
+area = width * length
+perimeter = 2 * (width + length)
+
+print("Area =", area)
+print("Perimeter =", perimeter)
